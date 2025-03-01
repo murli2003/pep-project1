@@ -252,7 +252,6 @@ By installing and configuring these tools, you will have the necessary environme
 To set up and run the project locally, follow these steps:
 
 Clone the repository:
-git clone https://github.com/aymane-maghouti/Big-Data-Project
 1. Stream Layer
 Start Apache zookeeper
 zookeeper-server-start.bat C:/kafka_2.13_2.6.0/config/zookeeper.properties
