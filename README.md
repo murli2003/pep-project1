@@ -22,6 +22,8 @@ Stream Layer: XGBoost (machine learning model), Apache HBase (real-time View)
 Batch Layer: Apache Spark (data processing framework), Apache Airflow (workflow orchestration), PostgreSQL (data warehouse (Batch View))
 Visualization: Spring Boot (web application framework), Power BI (interactive dashboards)
 3. Architecture
+![architecture](https://github.com/user-attachments/assets/49f18e9c-c907-42dd-bb93-0f16de973b8c)
+
 The project architecture consists of five main layers: the ingestion layer, the batch layer, the stream layer, the serving layer and the visualization layer.
 Ingestion Layer
 Apache Kafka: Utilized for real-time data ingestion from an API providing smartphone data.
@@ -38,7 +40,7 @@ Batch View: Transformed data is stored in PostgreSQL, as the data warehouse solu
 Visualization Layer
 Spring Boot Web Application: Provides a user interface to view real-time smartphone prices.
 Power BI Dashboard: Provides batch users with a visualization of processed data.
-4. Repository Structure
+5. Repository Structure
 The repository is organized as follows:
 
 Big-Data-Project:.
@@ -316,6 +318,7 @@ Here is the Dashboard created in Power BI:
 
 Phone Dashboard
 
+
 8. Acknowledgments
 Special thanks to the open-source communities behind Python, Kafka, HDFS , Spark,Hbase,Spring Bootand Airflow
 9. Conclusion
@@ -324,8 +327,7 @@ you can watch the demo video here
 
 10. Contacts
 For any inquiries or further information, please contact:
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 Name: Murli Monahar Gupta
 Email: murlimonahargupta@gmail.com
